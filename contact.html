@@ -3,10 +3,30 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Blogge | Personal Blog Site</title>
+  <title>Contact EV Hub | Electric Vehicle Consultation & Charging Station Services</title>
 
-  <!--Meta For No Index-->
-  <meta name="robots" content="noindex, Nofollow, Noimageindex">
+  <!--Meta For SEO-->
+  <meta name="description" content="Contact our electric vehicle experts for consultation on Tesla models, EV charging stations, and finding the best electric cars 2025. Get personalized EV advice and support.">
+  <meta name="keywords" content="ev consultation, electric vehicle expert contact, tesla consultation, ev charging station help, electric car advice">
+  <meta name="author" content="EV Hub">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://evhub.com/contact">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://evhub.com/contact">
+  <meta property="og:title" content="Contact EV Hub | Electric Vehicle Consultation & Charging Station Services">
+  <meta property="og:description" content="Contact our electric vehicle experts for consultation on Tesla models, EV charging stations, and finding the best electric cars 2025. Get personalized EV advice and support.">
+  <meta property="og:image" content="https://evhub.com/images/og-contact.jpg">
+  <meta property="og:site_name" content="EV Hub">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://evhub.com/contact">
+  <meta property="twitter:title" content="Contact EV Hub | Electric Vehicle Consultation & Charging Station Services">
+  <meta property="twitter:description" content="Contact our electric vehicle experts for consultation on Tesla models, EV charging stations, and finding the best electric cars 2025. Get personalized EV advice and support.">
+  <meta property="twitter:image" content="https://evhub.com/images/twitter-contact.jpg">
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,6 +38,32 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon" />
   <link rel="icon" href="images/favicon.svg" type="image/x-icon" />
+  
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact EV Hub - Electric Vehicle Consultation",
+    "description": "Contact our electric vehicle experts for consultation on Tesla models, EV charging stations, and finding the best electric cars 2025",
+    "url": "https://evhub.com/contact",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "EV Hub",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Electric Avenue",
+        "addressLocality": "EV City",
+        "addressRegion": "California",
+        "postalCode": "90210",
+        "addressCountry": "USA"
+      },
+      "telephone": "+1-555-EV-HUB-1",
+      "email": "info@evhub.com",
+      "description": "Electric vehicle consultation and expert advice on Tesla models, EV charging stations, and the best electric cars 2025"
+    }
+  }
+  </script>
 </head>
 
 <body>
@@ -70,15 +116,15 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="contact-information">
-          <h2>Contact Me</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores ea rebum Stet
-            clita.</p>
+          <h1>Contact EV Hub - Your Electric Vehicle Experts</h1>
+          <p>Get personalized electric vehicle consultation from our certified EV specialists. Whether you're looking for Tesla model recommendations, EV charging station guidance, or advice on the best electric cars 2025, we're here to help you make informed decisions about your electric vehicle journey.</p>
           <ul>
             <li><i class="fa fa-map-marker" aria-hidden="true"></i>
-              <p>Address: Lorem 142 Str., 2352, Ipsum, State, USA</p>
+              <p>Address: 123 Electric Avenue, EV City, California 90210, USA</p>
             </li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+33-257634 534">Phone: +33-257634 534</a>
+            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+1-555-EV-HUB-1">Phone: +1 (555) EV-HUB-1</a>
+            </li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@evhub.com">Email: info@evhub.com</a>
             </li>
           </ul>
 
@@ -88,28 +134,42 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="contact-form">
-          <h2>Contact Form</h2>
+          <h2>Get Your Free EV Consultation</h2>
+          <p>Tell us about your electric vehicle needs and we'll provide personalized recommendations for Tesla models, EV charging stations, and the best electric cars for your budget and lifestyle.</p>
           <form class="row" action="https://fabform.io/f/9APkcbe" method="post">
             <div class="col-md-6">
-              <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" id="exampleFormControlInput1" placeholder="Your Name" required>
             </div>
             <div class="col-md-6">
               <input type="email" class="form-control" name="email" id="validationCustom02" required="" placeholder="Your Email">
             </div>
             <div class="col-md-12">
+              <select class="form-control" name="ev_interest" required>
+                <option value="">Select Your EV Interest</option>
+                <option value="tesla-models">Tesla Model Y, 3, X, or S</option>
+                <option value="ev-charging">EV Charging Stations & Home Chargers</option>
+                <option value="best-evs-2025">Best Electric Cars 2025</option>
+                <option value="affordable-evs">Affordable Electric Cars</option>
+                <option value="used-evs">Used Electric Cars</option>
+                <option value="ev-tax-incentives">EV Tax Incentives & Rebates</option>
+                <option value="ev-battery-life">Electric Car Battery Life</option>
+                <option value="other">Other EV Question</option>
+              </select>
+            </div>
+            <div class="col-md-12">
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"
-                placeholder="Message here…"></textarea>
+                placeholder="Tell us about your electric vehicle needs, budget, and any specific questions about Tesla models, EV charging, or electric cars..." name="message" required></textarea>
             </div>
             <div class="col-md-12">
               <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required>
                 <label class="form-check-label" for="gridCheck">
-                  I agree that my submitted data is being collected and stored.
+                  I agree to receive personalized EV recommendations and updates about electric vehicles.
                 </label>
               </div>
             </div>
             <div class="col-lg-12">
-              <button type="submit" class="btn btn-primary" formtarget="_blank">Send Message</button>
+              <button type="submit" class="btn btn-primary" formtarget="_blank">Get Free EV Consultation</button>
             </div>
           </form>
           <p class="contact-form-generator">
